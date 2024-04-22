@@ -1,0 +1,31 @@
+{
+  "name": "openings-rank",
+  "author": "miraerv",
+  "version": "0.0.1",
+  "description": "Openings Rank: Your go-to app for anime opening rankings. Discover, rate, and compare your favorite anime openings with ease. Dive into the world of anime music and animation, and share your opinions with a vibrant community of fans. Download now and start ranking your favorite openings!",
+  "license": "MIT",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run lint && tsc",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.ts\""
+  },
+  "engines": {
+    "node": "16 || 18 || 19 || 20 || 21"
+  },
+  "dependencies": {
+    "pg": "^8.11.5",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/pg": "^8.11.5",
+    "@types/ws": "^8.5.10",
+    "eslint": "^9.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
